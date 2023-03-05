@@ -16,11 +16,11 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: grey;
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: grey;
 }
 
 body {
@@ -48,7 +48,7 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: grey;
 }
 button:focus,
 button:focus-visible {
@@ -66,4 +66,24 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+header nav {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  max-width: 1600px;
+  margin-left: 200px;
+}
+#root > div > header > nav > h1 {
+  margin-right: 250px;
+  font-family: "Dancing Script", cursive;
+  color: grey;
+}
+.categories {
+  display: flex;
+  justify-content: space-between;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 10px 0;
 }
