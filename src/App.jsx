@@ -3,6 +3,7 @@ import "./App.css";
 import Gallery from "./Gallery";
 import About from "./About";
 import LoveStory from "./LoveStory";
+import Weddings from "./Weddings";
 import {
   createBrowserRouter,
   Route,
@@ -18,6 +19,7 @@ const router = createBrowserRouter(
       <Route path="/" element={<Gallery />} />
       <Route path="about" element={<About />} />
       <Route path="LoveStory" element={<LoveStory />} />
+      <Route path="Weddings" element={<Weddings />} />
     </Route>
   )
 );
