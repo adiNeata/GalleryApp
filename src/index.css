@@ -83,7 +83,7 @@ header nav {
 .categories {
   display: flex;
   justify-content: space-between;
-  max-width: 500px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 10px 0;
 }
