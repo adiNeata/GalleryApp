@@ -7,6 +7,7 @@ import Weddings from "./Weddings";
 import Wildlife from "./Wildlife";
 import Babies from "./Babies";
 import Pregnant from "./Pregnant";
+
 import {
   createBrowserRouter,
   Route,
@@ -18,6 +19,7 @@ import RootLayout from "../name-of-your-project/src/layouts/RootLayout";
 import Pets from "./Pets";
 import { Save } from "@mui/icons-material";
 import Savethedate from "./Savethedate";
+import Footer from "./Footer";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -36,7 +38,15 @@ const router = createBrowserRouter(
 );
 
 function App() {
-  return <RouterProvider router={router} />;
+  return (
+    <div className="App">
+      <div className="content-wrap">
+        <RouterProvider router={router} />
+      </div>
+
+      <Footer />
+    </div>
+  );
 }
 
 export default App;
