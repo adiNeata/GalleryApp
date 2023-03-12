@@ -1,6 +1,5 @@
-import { textAlign } from "@mui/system";
 import React from "react";
-import "./styles/Footer.css";
+import "../styles/Footer.css";
 
 import { FaFacebookSquare } from "react-icons/fa";
 <script

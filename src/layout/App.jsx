@@ -7,22 +7,22 @@ import {
 } from "react-router-dom";
 
 //import styles
-import "./styles/App.css";
+import "../styles/App.css";
 
 //import layout
-import RootLayout from "./layout/RootLayout";
+import RootLayout from "./RootLayout";
 import Footer from "./Footer";
 
 //import pages
-import Gallery from "./pages/Gallery";
-import Nature from "./pages/Nature";
-import Portrait from "./pages/Portrait";
-import Weddings from "./pages/Weddings";
-import Wildlife from "./pages//Wildlife";
-import Babies from "./pages/Babies";
-import Pregnant from "./pages/Pregnant";
-import Savethedate from "./pages/Savethedate";
-import Pets from "./pages/Pets";
+import Gallery from "../pages/Gallery";
+import Nature from "../pages/Nature";
+import Portrait from "../pages/Portrait";
+import Weddings from "../pages/Weddings";
+import Wildlife from "../pages/Wildlife";
+import Babies from "../pages/Babies";
+import Pregnant from "../pages/Pregnant";
+import Savethedate from "../pages/Savethedate";
+import Pets from "../pages/Pets";
 
 
 
@@ -44,11 +44,8 @@ const router = createBrowserRouter(
 
 function App() {
   return (
-    <div className="App">
-      <div className="content-wrap">
-        <RouterProvider router={router} />
-      </div>
-
+    <div class="app">
+      <RouterProvider router={router} />
       <Footer />
     </div>
   );
