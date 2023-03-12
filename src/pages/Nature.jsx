@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import "./gallery.css";
+import "../styles/gallery.css";
 import CancelPresentationIcon from "@mui/icons-material/CancelPresentation";
-import Img1 from "./img/img1.jpg";
-import Img2 from "./img/img2.jpg";
-import Img3 from "./img/img3.jpg";
-import Img4 from "./img/img4.jpg";
+import Img1 from "../img/img1.jpg";
+import Img2 from "../img/img2.jpg";
+import Img3 from "../img/img3.jpg";
+import Img4 from "../img/img4.jpg";
 const Nature = () => {
   let data = [
     {

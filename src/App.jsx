@@ -1,25 +1,30 @@
 import React from "react";
-import "./App.css";
-import Gallery from "./Gallery";
-import Nature from "./pages/Nature";
-import Portrait from "./Portrait";
-import Weddings from "./Weddings";
-import Wildlife from "./Wildlife";
-import Babies from "./Babies";
-import Pregnant from "./Pregnant";
-
 import {
   createBrowserRouter,
   Route,
   createRoutesFromElements,
   RouterProvider,
 } from "react-router-dom";
-//Layout
+
+//import styles
+import "./styles/App.css";
+
+//import layout
 import RootLayout from "./layout/RootLayout";
-import Pets from "./pages/Pets";
-import { Save } from "@mui/icons-material";
-import Savethedate from "./Savethedate";
 import Footer from "./Footer";
+
+//import pages
+import Gallery from "./pages/Gallery";
+import Nature from "./pages/Nature";
+import Portrait from "./pages/Portrait";
+import Weddings from "./pages/Weddings";
+import Wildlife from "./pages//Wildlife";
+import Babies from "./pages/Babies";
+import Pregnant from "./pages/Pregnant";
+import Savethedate from "./pages/Savethedate";
+import Pets from "./pages/Pets";
+
+
 
 const router = createBrowserRouter(
   createRoutesFromElements(
