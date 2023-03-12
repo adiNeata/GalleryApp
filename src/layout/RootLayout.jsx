@@ -9,76 +9,36 @@ export default function RootLayout() {
       <h2 className="categories">
         <NavLink to="/"></NavLink>
 
-        <NavLink
-          to="Nature"
-          style={({ isActive }) => ({
-            borderStyle: isActive ? "inset" : "inset",
-          })}
-        >
-          Nature
+        <NavLink to="Nature">
+          <button className="btn btn1">Nature</button>
         </NavLink>
 
-        <NavLink
-          to="Portrait"
-          style={({ isActive }) => ({
-            borderStyle: isActive ? "inset" : "inset",
-          })}
-        >
-          Portrait
+        <NavLink to="Portrait">
+          <button className="btn btn1">Portrait</button>
         </NavLink>
 
-        <NavLink
-          to="Weddings"
-          style={({ isActive }) => ({
-            borderStyle: isActive ? "inset" : "inset",
-          })}
-        >
-          Weddings
+        <NavLink to="Weddings">
+          <button className="btn btn2">Weddings</button>
         </NavLink>
 
-        <NavLink
-          to="Wildlife"
-          style={({ isActive }) => ({
-            borderStyle: isActive ? "inset" : "inset",
-          })}
-        >
-          Wildlife
+        <NavLink to="Wildlife">
+          <button className="btn btn2">Wildlife</button>
         </NavLink>
 
-        <NavLink
-          to="Babies"
-          style={({ isActive }) => ({
-            borderStyle: isActive ? "inset" : "inset",
-          })}
-        >
-          Babies
+        <NavLink to="Babies">
+          <button className="btn btn3">Babies</button>
         </NavLink>
 
-        <NavLink
-          to="Pregnant"
-          style={({ isActive }) => ({
-            borderStyle: isActive ? "inset" : "inset",
-          })}
-        >
-          Pregnant
+        <NavLink to="Pregnant">
+          <button className="btn btn3">Pregnant</button>
         </NavLink>
 
-        <NavLink
-          to="Pets"
-          style={({ isActive }) => ({
-            borderStyle: isActive ? "inset" : "inset",
-          })}
-        >
-          Pets
+        <NavLink to="Pets">
+          <button className="btn btn4">Pets</button>
         </NavLink>
 
-        <NavLink
-          to="SaveTheDate"
-          style={({ isActive }) => ({
-            borderStyle: isActive ? "inset" : "inset",
-          })}
-        >
-          Save the date
+        <NavLink to="SaveTheDate">
+          <button className="btn btn4">Save the date</button>
         </NavLink>
       </h2>
       <main>
@@ -87,3 +47,4 @@ export default function RootLayout() {
     </div>
   );
 }
+
