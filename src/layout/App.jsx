@@ -1,25 +1,30 @@
 import React from "react";
-import "./App.css";
-import Gallery from "./Gallery";
-import Nature from "./Nature";
-import Portrait from "./Portrait";
-import Weddings from "./Weddings";
-import Wildlife from "./Wildlife";
-import Babies from "./Babies";
-import Pregnant from "./Pregnant";
-
 import {
   createBrowserRouter,
   Route,
   createRoutesFromElements,
   RouterProvider,
 } from "react-router-dom";
-//Layout
-import RootLayout from "../name-of-your-project/src/layouts/RootLayout";
-import Pets from "./Pets";
-import { Save } from "@mui/icons-material";
-import Savethedate from "./Savethedate";
+
+//import styles
+import "../styles/App.css";
+
+//import layout
+import RootLayout from "./RootLayout";
 import Footer from "./Footer";
+
+//import pages
+import Gallery from "../pages/Gallery";
+import Nature from "../pages/Nature";
+import Portrait from "../pages/Portrait";
+import Weddings from "../pages/Weddings";
+import Wildlife from "../pages/Wildlife";
+import Babies from "../pages/Babies";
+import Pregnant from "../pages/Pregnant";
+import Savethedate from "../pages/Savethedate";
+import Pets from "../pages/Pets";
+
+
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -39,11 +44,8 @@ const router = createBrowserRouter(
 
 function App() {
   return (
-    <div className="App">
-      <div className="content-wrap">
-        <RouterProvider router={router} />
-      </div>
-
+    <div class="app">
+      <RouterProvider router={router} />
       <Footer />
     </div>
   );
