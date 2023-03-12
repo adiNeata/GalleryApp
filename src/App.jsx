@@ -15,7 +15,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 //Layout
-import RootLayout from "../name-of-your-project/src/layouts/RootLayout";
+import RootLayout from "../layouts/RootLayout.jsx";
 import Pets from "./Pets";
 import { Save } from "@mui/icons-material";
 import Savethedate from "./Savethedate";
