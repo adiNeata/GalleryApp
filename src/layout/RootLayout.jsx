@@ -5,11 +5,7 @@ import { style } from "@mui/system";
 export default function RootLayout() {
   return (
     <div className="root-layout">
-      <header>
-        <nav>
-          <h1>Proxy Photography</h1>
-        </nav>
-      </header>
+      <h1>Proxy Photography</h1>
       <h2 className="categories">
         <NavLink to="/"></NavLink>
 

@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import Gallery from "./Gallery";
-import Nature from "./Nature";
+import Nature from "./pages/Nature";
 import Portrait from "./Portrait";
 import Weddings from "./Weddings";
 import Wildlife from "./Wildlife";
@@ -15,8 +15,8 @@ import {
   RouterProvider,
 } from "react-router-dom";
 //Layout
-import RootLayout from "../layouts/RootLayout.jsx";
-import Pets from "./Pets";
+import RootLayout from "./layout/RootLayout";
+import Pets from "./pages/Pets";
 import { Save } from "@mui/icons-material";
 import Savethedate from "./Savethedate";
 import Footer from "./Footer";
