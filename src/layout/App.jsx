@@ -14,7 +14,6 @@ import RootLayout from "./RootLayout";
 import Footer from "./Footer";
 
 //import pages
-import Gallery from "../pages/Gallery";
 import Nature from "../pages/Nature";
 import Portrait from "../pages/Portrait";
 import Weddings from "../pages/Weddings";
@@ -29,7 +28,7 @@ import Pets from "../pages/Pets";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout />}>
-      <Route path="/" element={<Gallery />} />
+      <Route path="/" element={<Nature />} />
       <Route path="Nature" element={<Nature />} />
       <Route path="Portrait" element={<Portrait />} />
       <Route path="Weddings" element={<Weddings />} />

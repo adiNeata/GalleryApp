@@ -17,18 +17,11 @@
   font-weight: 700;
 }
 
-.facebook {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.instagram {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .email {
   display: inline-block;
+}
+
+a {
+  align-items: center;
+  margin-top: 7px;
 }

@@ -12,28 +12,21 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="contact">
-            <h4>Contact</h4>
+            <h3>Contact:</h3>
+            <a
+              href="https://www.facebook.com/robert.proxy"
+              target="_target"
+            >
+              <FaFacebookSquare />
+            </a>
+            <a href="https://www.instagram.com/proxyrobert/" target="_target">
+              <FaInstagramSquare />
+            </a>
             <div className="facebook">
-              <a
-                href="https://www.facebook.com/robert.proxy"
-                target="_target"
-              >
-                Facebook
-              </a>
-              <a
-                href="https://www.facebook.com/robert.proxy"
-                target="_target"
-              >
-                <FaFacebookSquare />
-              </a>
+
             </div>
             <div className="instagram">
-              <a href="https://www.instagram.com/proxyrobert/" target="_target">
-                Instagram
-              </a>
-              <a href="https://www.instagram.com/proxyrobert/" target="_target">
-                <FaInstagramSquare />
-              </a>
+
             </div>
           </div>
           <div className="email">Email: </div>
