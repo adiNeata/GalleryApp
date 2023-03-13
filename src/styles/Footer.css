@@ -19,3 +19,28 @@
 .col-sm {
   color: black;
 }
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.facebook {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.instagram {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

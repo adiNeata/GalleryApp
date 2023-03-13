@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Footer.css";
 
-import { FaFacebookSquare } from "react-icons/fa";
+import { FaFacebookSquare, FaInstagramSquare } from "react-icons/fa";
 <script
   src="https://kit.fontawesome.com/1e68919d5d.js"
   crossorigin="anonymous"
@@ -11,29 +11,31 @@ const Footer = () => {
     <div className="main-footer ">
       <div className="container">
         <div className="row">
-          <div className="col2">
+          <div className="contact">
             <h4>Contact</h4>
-            <h3 className="list-unstyled">
-              <div>
-                <a
-                  href="https://www.facebook.com/robert.proxy"
-                  target="_target"
-                >
-                  Facebook
-                </a>
-                <a
-                  href="https://www.facebook.com/robert.proxy"
-                  target="_target"
-                >
-                  <FaFacebookSquare />
-                </a>
-              </div>
+            <div className="facebook">
+              <a
+                href="https://www.facebook.com/robert.proxy"
+                target="_target"
+              >
+                Facebook
+              </a>
+              <a
+                href="https://www.facebook.com/robert.proxy"
+                target="_target"
+              >
+                <FaFacebookSquare />
+              </a>
+            </div>
+            <div className="instagram">
               <a href="https://www.instagram.com/proxyrobert/" target="_target">
                 Instagram
               </a>
-
-              <div>Email: </div>
-            </h3>
+              <a href="https://www.instagram.com/proxyrobert/" target="_target">
+                <FaInstagramSquare />
+              </a>
+            </div>
+            <div>Email: </div>
           </div>
         </div>
         <hr />
@@ -44,7 +46,7 @@ const Footer = () => {
           </p>
         </div>
       </div>
-    </div>
+    </div >
   );
 };
 

@@ -1,13 +1,13 @@
 #root {
+  height: 90vh;
   margin: auto;
   padding: 2rem;
   margin-top: 0;
 }
 
 .app {
+  height: 90vh;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
   flex-direction: column;
-  row-gap: 40vh;
+  justify-content: space-between;
 }

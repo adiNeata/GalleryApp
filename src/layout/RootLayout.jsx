@@ -1,46 +1,45 @@
 import { NavLink, Outlet } from "react-router-dom";
-import Button from "react-bootstrap/Button";
-import { style } from "@mui/system";
+import "../styles/rootlayout.css";
 
 export default function RootLayout() {
   return (
     <div className="root-layout">
       <h1>Proxy Photography</h1>
-      <h2 className="categories">
+      <div className="categories">
         <NavLink to="/"></NavLink>
 
         <NavLink to="Nature">
-          <button className="btn btn1">Nature</button>
+          <button className="btn">Nature</button>
         </NavLink>
 
         <NavLink to="Portrait">
-          <button className="btn btn1">Portrait</button>
+          <button className="btn">Portrait</button>
         </NavLink>
 
         <NavLink to="Weddings">
-          <button className="btn btn2">Weddings</button>
+          <button className="btn">Weddings</button>
         </NavLink>
 
         <NavLink to="Wildlife">
-          <button className="btn btn2">Wildlife</button>
+          <button className="btn">Wildlife</button>
         </NavLink>
 
         <NavLink to="Babies">
-          <button className="btn btn3">Babies</button>
+          <button className="btn">Babies</button>
         </NavLink>
 
         <NavLink to="Pregnant">
-          <button className="btn btn3">Pregnant</button>
+          <button className="btn">Pregnant</button>
         </NavLink>
 
         <NavLink to="Pets">
-          <button className="btn btn4">Pets</button>
+          <button className="btn">Pets</button>
         </NavLink>
 
         <NavLink to="SaveTheDate">
-          <button className="btn btn4">Save the date</button>
+          <button className="btn">Save the date</button>
         </NavLink>
-      </h2>
+      </div>
       <main>
         <Outlet />
       </main>

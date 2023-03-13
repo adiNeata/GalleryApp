@@ -26,7 +26,6 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
@@ -35,6 +34,8 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
 }
 
 button {
@@ -49,14 +50,6 @@ button {
   transition: border-color 0.25s;
 }
 
-button:hover {
-  border-color: grey;
-}
-
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -81,23 +74,16 @@ header nav {
   margin-left: 200px;
 }
 
-#root > div > header > nav > h1 {
+#root>div>header>nav>h1 {
   margin-right: 250px;
   font-family: "Dancing Script", cursive;
   color: grey;
 }
 
-.categories {
-  display: flex;
-  justify-content: space-between;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 10px 0;
-}
-
 .btn {
   border: 1px solid #3498db;
   background: none;
+  color: #3498db;
   padding: 10px 20px;
   font-size: 20px;
   font-family: "montserrat";
@@ -107,12 +93,16 @@ header nav {
   position: relative;
   overflow: hidden;
 }
-.btn,
-.btn {
-  color: #3498db;
+
+button:hover {
+  border-color: grey;
 }
 
-.btn:hover,
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
 .btn:hover {
   color: #fff;
 }
@@ -120,26 +110,16 @@ header nav {
 .btn::before {
   content: "";
   position: absolute;
+  top: 0;
   left: 0;
   width: 100%;
   height: 0%;
+  border-radius: 0 0 50% 50%;
   background: #3498db;
   z-index: -1;
   transition: 0.8s;
 }
 
-.btn::before,
-.btn::before {
-  top: 0;
-  border-radius: 0 0 50% 50%;
-}
-
-.btn:hover::before,
 .btn:hover::before {
   height: 180%;
-}
-
-h1 {
-  text-align: center;
-  font-family: "Dancing Script", cursive;
 }
