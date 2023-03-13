@@ -138,3 +138,8 @@ header nav {
 .btn:hover::before {
   height: 180%;
 }
+
+h1 {
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+}
