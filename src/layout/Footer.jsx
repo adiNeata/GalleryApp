@@ -8,7 +8,7 @@ import { FaFacebookSquare, FaInstagramSquare } from "react-icons/fa";
 ></script>;
 const Footer = () => {
   return (
-    <div className="main-footer ">
+    <div>
       <div className="container">
         <div className="row">
           <div className="contact">
@@ -35,13 +35,10 @@ const Footer = () => {
                 <FaInstagramSquare />
               </a>
             </div>
-            <div>Email: </div>
           </div>
-        </div>
-        <hr />
-        <div className="row">
-          <p className="col-sm">
-            &copy;{new Date().getFullYear()} Proxy Photography | All right
+          <div className="email">Email: </div>
+          <p>
+            &copy;{new Date().getFullYear()} Proxy Photography | All rights
             reserved
           </p>
         </div>
